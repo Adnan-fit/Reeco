@@ -1,0 +1,140 @@
+/* Main CSS */
+
+
+.main{
+    width: 100vw;
+    height: auto;
+}
+
+.orderDetails{
+    width: 84%;
+    height: 150px;
+    margin-left: 9%;
+    margin-top: 3%;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.orderDetailsList{
+    /* width: 100px; */
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.summary{
+    width: 150px;
+    height: 100px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: inherit;
+    box-shadow: 70px 0px 44px -44px rgba(155,155,155,1);
+}
+.summaryDetails{
+    font-weight: 800;
+}
+.orderContainer{
+    width: 84%;
+    height: 72%;
+    background-color: white;
+    margin: 30px 9% 30px 9%; 
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.orderContainerHead{
+    width: 93%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px; 
+    /* background-color: tomato; */
+}
+
+.orderSearch{
+    width: 45%;
+    height: 50%;
+    margin: 25px; 
+}
+
+.searchInput{
+    width: 100%;
+    height: 15px;
+    border-radius: 40px;
+}
+.addPrint{
+    width: 45%;
+    height: 50%;
+    margin: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+.addItem{
+    width: 100px;
+    height: 36px;
+    padding: 4px;
+    border-radius: 20px;
+    color: #006b41;
+    border: 1px solid #006b41;
+    background-color: white;
+    margin: auto 22px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.printIcon{
+    width: auto;
+    height: auto;
+    color: #006b41;
+    /* margin: auto 20px; */
+}
+.orderList{
+    width: 90%;
+    height: auto;
+    margin: 10px 65px 10px 65px;
+    /* background-color: yellow; */
+}
+.modalBackDrop{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+.modalContent{
+    position: absolute;
+    background-color: white;
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 16px;
+    border-radius: 10px;
+    min-width: 320px;
+}
+.modalHeader{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.modalTitle,
+.closeButton{
+    font-size: 20px;
+    font-weight: 600;
+}
+.closeButton,
+.yes,
+.no{
+    cursor: pointer;
+}
+/* .productName{
+    margin-bottom: 30px;
+} */
+.yesNoButton{
+    width: 90px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 75%;
+    margin-top: 30px;
+    padding: 5px;
+}

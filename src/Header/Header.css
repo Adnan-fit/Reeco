@@ -1,0 +1,90 @@
+/* Header.css */
+
+.header {
+    width: 100vw;
+    height: 20vh;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #006b41;
+    color: white;
+    height: 40%;
+    padding: 0px 8%;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .logo {
+    font-weight: bold;
+  }
+
+  a{
+    color: white;
+  }
+
+  .navigation-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .profile-name {
+    font-weight: bold;
+  }
+  .pageHeader{
+    height: 60%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  }
+  .orderRoute{
+    width: auto;
+    margin: 20px 9% 33px 9%;
+    font-size: large;
+  }
+  .orderHead{
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  .orderNumber{
+    width: 50%;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 9%;
+  }
+  .orderButton{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-right: 7%;
+  }
+  .back{
+    width: 59px;
+    height: 30px;
+    padding: 7px;
+    border-radius: 22px;
+    background-color: white;
+    color: #006b41;
+    font-weight: bolder;
+  }
+  .approve{
+    width: 120px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 22px;
+    background-color: #006b41;
+    color: white;
+  }
